@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.video {
+  width: 580px;
+  height: 326px;
+}
+
+#fluid_video_wrapper_video {
+  width: 100% !important;
+  height: 100% !important;
+}
